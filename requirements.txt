@@ -1,0 +1,11 @@
+/***    GIT RAMAS   ***/
+
+git branch: listar ramas
+
+git checkout "nuevo-nombre.rama": acceder a una rama
+git checkout -b "nuevo-nombre.rama": crear y acceder a una rama
+
+git branch -m "actual-nombre-rama" "nuevo-nombre.rama": renombrar rama
+git branch -d "nombre-rama": borar rama
+
+
