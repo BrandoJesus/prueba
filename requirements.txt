@@ -1,4 +1,16 @@
-/***    GIT RAMAS   ***/
+/***      GIT REVERT     ***/
+git revert: revierte un commit 
+git checkout -- [archivo]: indique los archivos a recuperar
+
+/***      GIT LOG      ***/
+git log: visualiza los commits de la rama
+| cat: permite realizar otros comandos
+--oneline: en linea
+--decorate: especifica el HEAD..
+--graph: visualiza el orden de creacion
+--all: visualiza todos los commits de todas la ramas
+
+/***      GIT RAMAS     ***/
 
 git branch: listar ramas
 
@@ -6,6 +18,6 @@ git checkout "nuevo-nombre.rama": acceder a una rama
 git checkout -b "nuevo-nombre.rama": crear y acceder a una rama
 
 git branch -m "actual-nombre-rama" "nuevo-nombre.rama": renombrar rama
-git branch -d "nombre-rama": borar rama
+git branch -d "nombre-rama": borrar rama
 
 
